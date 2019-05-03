@@ -13,7 +13,6 @@ Expect: jest fails with TSC type error on index.ts file
 
 Actual: jest passes
 
-Setup to match instructions in jest-runner-tsc readme.
 
 Relevant issues:
 - original issue (builds are slow) https://github.com/azz/jest-runner-tsc/issues/5 
