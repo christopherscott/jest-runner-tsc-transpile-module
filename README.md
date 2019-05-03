@@ -2,6 +2,15 @@
 
 Reproducing an issue where recent PR to `jest-runner-tsc` caused it to stop type-checking files.
 
+To repro:
+
+```
+yarn
+yarn test
+```
+
+Setup to match instructions in jest-runner-tsc readme.
+
 Relevant issues:
 - original issue (builds are slow) https://github.com/azz/jest-runner-tsc/issues/5 
 - PR for the fix: https://github.com/azz/jest-runner-tsc/pull/14
