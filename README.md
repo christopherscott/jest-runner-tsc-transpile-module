@@ -9,6 +9,9 @@ yarn
 yarn test
 ```
 
+Expect: jest fails with TSC type error on index.ts file
+Actual: jest passes
+
 Setup to match instructions in jest-runner-tsc readme.
 
 Relevant issues:
